@@ -8,7 +8,7 @@ Welcome to the **Quantum Computing** repository! This repository contains intera
 
 ---
 
-## 📁 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Repository Structure & Notebook Summaries](#repository-structure--notebook-summaries)
@@ -24,7 +24,7 @@ Welcome to the **Quantum Computing** repository! This repository contains intera
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository demonstrates the principles of quantum information processing, phase kickback, quantum entanglement, quantum nonlocality, state verification, and Hamiltonian expectation estimation:
 
@@ -35,10 +35,10 @@ This repository demonstrates the principles of quantum information processing, p
 
 ---
 
-## 🔬 Repository Structure & Notebook Summaries
+## Repository Structure & Notebook Summaries
 
 ### 1. Deutsch's Algorithm (1-Bit Query Reduction)
-📄 **Files:**
+**Files:**
 - [`Query_reduction_with_Deutsch's_algorithm.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Query_reduction_with_Deutsch's_algorithm.ipynb)
 - [`Query_reduction_with_Deutsch's_alogrithm.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Query_reduction_with_Deutsch's_alogrithm.ipynb) *(Duplicate with alternate spelling)*
 
@@ -51,7 +51,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 2. Deutsch-Jozsa & Bernstein-Vazirani Algorithms
-📄 **File:** [`Deutsch_Jozsa_Algorithm_Implementation.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Deutsch_Jozsa_Algorithm_Implementation.ipynb)
+**File:** [`Deutsch_Jozsa_Algorithm_Implementation.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Deutsch_Jozsa_Algorithm_Implementation.ipynb)
 
 - **Core Concept:** Generalizes query reduction to $n$-qubit functions and secret bitstring discovery.
 - **Key Components:**
@@ -65,7 +65,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 3. Nonlocal CHSH Game (Quantum Advantage)
-📄 **File:** [`Improve_win_probability_Nonlocal_CHSH.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Improve_win_probability_Nonlocal_CHSH.ipynb)
+**File:** [`Improve_win_probability_Nonlocal_CHSH.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Improve_win_probability_Nonlocal_CHSH.ipynb)
 
 - **Core Concept:** Demonstrates quantum nonlocality via the Clauser-Horne-Shimony-Holt (CHSH) game.
 - **Key Insights:**
@@ -78,7 +78,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 4. Quantum Teleportation Protocol
-📄 **File:** [`Quantum_Teleportation.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Teleportation.ipynb)
+**File:** [`Quantum_Teleportation.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Teleportation.ipynb)
 
 - **Core Concept:** Teleports an unknown arbitrary single-qubit quantum state $|\psi\rangle$ from Alice to Bob using an EPR pair and two classical bits.
 - **Key Workflow:**
@@ -93,7 +93,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 5. Quantum Circuit Construction & Transpilation
-📄 **File:** [`Quantum_Circuit.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Circuit.ipynb)
+**File:** [`Quantum_Circuit.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Circuit.ipynb)
 
 - **Core Concept:** Complete tutorial on building, transpiling, and executing quantum circuits on real quantum processing units (QPUs) vs local simulators.
 - **Key Features:**
@@ -105,7 +105,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 6. Quantum Energy Measurement & Hamiltonian Observables
-📄 **File:** [`Quantum Experiment - Calculate Energy.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum Experiment - Calculate Energy.ipynb)
+**File:** [`Quantum Experiment - Calculate Energy.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum Experiment - Calculate Energy.ipynb)
 
 - **Core Concept:** Variational quantum eigensolver concepts and observable expectation estimation.
 - **Key Details:**
@@ -116,7 +116,7 @@ This repository demonstrates the principles of quantum information processing, p
 
 ---
 
-## 🛠 Prerequisites & Installation
+## Prerequisites & Installation
 
 ### Requirements
 - Python 3.10+
@@ -136,7 +136,7 @@ pip install "qiskit[visualization]" qiskit-aer qiskit-ibm-runtime numpy matplotl
 
 ---
 
-## 🔑 IBM Quantum Cloud Credentials
+## IBM Quantum Cloud Credentials
 
 To execute circuits on physical IBM Quantum QPUs, save your IBM Quantum API Token once in Python:
 
@@ -168,7 +168,7 @@ print("Connected QPU:", backend.name)
 | [`Improve_win_probability_Nonlocal_CHSH.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Improve_win_probability_Nonlocal_CHSH.ipynb) | CHSH Nonlocal Game (~85.3% Win Rate) | 2 | ✅ | ✅ |
 | [`Quantum_Teleportation.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Teleportation.ipynb) | Quantum State Teleportation | 3 | ✅ | ✅ |
 | [`Quantum_Circuit.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum_Circuit.ipynb) | Bell Pair & QPU Transpilation | 2 | ✅ | ✅ |
-| [`Quantum Experiment - Calculate Energy.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum Experiment - Calculate Energy.ipynb) | Singlet Energy Estimation (`EstimatorV2`) | 2 | ✅ | ✅ |
+| [`Quantum Experiment - Calculate Energy.ipynb`] | Singlet Energy Estimation (`EstimatorV2`) | 2 | ✅ | ✅ |
 
 ---
 
