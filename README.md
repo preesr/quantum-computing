@@ -40,9 +40,9 @@ This repository demonstrates the principles of quantum information processing, p
 ### 1. Deutsch's Algorithm (1-Bit Query Reduction)
 **Files:**
 - [`Query_reduction_with_Deutsch's_algorithm.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Query_reduction_with_Deutsch's_algorithm.ipynb)
-- [`Query_reduction_with_Deutsch's_alogrithm.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Query_reduction_with_Deutsch's_alogrithm.ipynb) *(Duplicate with alternate spelling)*
 
-- **Core Concept:** Resolves whether a single-bit boolean function $f: \{0,1\} \rightarrow \{0,1\}$ is **constant** ($f(0)=f(1)$) or **balanced** ($f(0) \neq f(1)$) using a **single quantum query**, whereas classical algorithms strictly require 2 queries.
+
+- **Core Concept:** Resolves whether a single-bit boolean function $f: \{0,1\} \rightarrow \{0,1\}$ is **constant** or **balanced** using a **single quantum query**, whereas classical algorithms strictly require 2 queries.
 - **Key Techniques:**
   - Initialization of an ancilla qubit in the $|-\rangle$ state for phase kickback ($X$ followed by Hadamard $H$).
   - Oracle construction for all 4 possible 1-bit boolean functions.
