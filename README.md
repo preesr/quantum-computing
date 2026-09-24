@@ -70,7 +70,7 @@ This repository demonstrates the principles of quantum information processing, p
 - **Core Concept:** Demonstrates quantum nonlocality via the Clauser-Horne-Shimony-Holt (CHSH) game.
 - **Key Insights:**
   - **Classical Bound:** Any deterministic or probabilistic classical strategy has a maximum win probability of **$75\%$** ($0.75$).
-  - **Quantum Strategy:** By sharing a Bell pair $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$ and measuring along optimized rotation angles ($R_y(-\pi/2), R_y(-\pi/4), R_y(\pi/4)$), the win probability increases to **$\cos^2(\pi/8) \approx 85.3\%$**.
+  - **Quantum Strategy:** By sharing a Bell pair $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$ and measuring along optimized rotation angles, the win probability increases to **$\cos^2(\pi/8) \approx 0.85\%$**.
 - **Key Techniques:**
   - Parameterized $R_y(\theta)$ rotation gates for basis switching.
   - Comparative monte-carlo simulation over 1,000 games comparing classical vs. quantum strategies.
