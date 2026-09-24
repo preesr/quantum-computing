@@ -105,7 +105,7 @@ This repository demonstrates the principles of quantum information processing, p
 ---
 
 ### 6. Quantum Energy Measurement & Hamiltonian Observables
-**File:** [`Quantum Experiment - Calculate Energy.ipynb`](file:///Users/preethi/Documents/Antigravity%20Projects/quantum-computing/Quantum Experiment - Calculate Energy.ipynb)
+**File:** [`Quantum Experiment - Calculate Energy.ipynb`]
 
 - **Core Concept:** Variational quantum eigensolver concepts and observable expectation estimation.
 - **Key Details:**
